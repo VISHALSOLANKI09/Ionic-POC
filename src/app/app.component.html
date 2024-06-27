@@ -1,4 +1,14 @@
-<ion-app>
-  <h1 *ngIf="isEmulator">Running on Emulator</h1>
-  <h1 *ngIf="!isEmulator">Running on real device</h1>
-</ion-app>
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="header">VAPT Detection</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="center-image">
+    <img class="image" src="../assets/VAPT.png" alt="VAPT">
+  </div>
+  <!-- <div class="center-button">
+    <ion-button expand="full" (click)="checkFridaDetection()">Verify</ion-button>
+  </div> -->
+</ion-content>
